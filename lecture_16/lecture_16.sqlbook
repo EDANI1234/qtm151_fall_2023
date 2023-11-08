@@ -26,7 +26,11 @@ panel on the left:
 
 Delete existing table
 -- SQLBook: Code
+<<<<<<< Updated upstream
 -- Active: 1698674191041@@127.0.0.1@5432@postgres
+=======
+-- Active: 1698697941460@@127.0.0.1@5432@postgres@public
+>>>>>>> Stashed changes
 -- If the table already exists we can drop it:
 -- If it doesn't exist nothing happens
 -- System commands are in upper case and user defined
@@ -178,7 +182,13 @@ Try it yourself!
 with more than 60 victories
 -- SQLBook: Code
 -- Write your own code!
+<<<<<<< Updated upstream
 SELECT driver_name, nationality, driver_id, victories FROM drivers;
+=======
+SELECT nationality, driver_id FROM drivers; 6ms
+WHERE victories > 60:
+
+>>>>>>> Stashed changes
 
 -- SQLBook: Markup
 # <span style="color:darkblue"> III. Groupby + Chaining </span>
